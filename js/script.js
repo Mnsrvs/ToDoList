@@ -33,7 +33,6 @@ function addTask() {
   let checkBox = document.createElement("input");
   checkBox.type = "checkbox";
   checkBox.id = "checkBox";
-  let check = checkBox.value;
 
   // event 
   checkBox.addEventListener("change", markDone);
